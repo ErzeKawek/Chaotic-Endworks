@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "net.erzekawek.chaoticendworks.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BiomeSourceMixin",
+    "TheEndBiomeSourceMixin",
+    "ClimateSamplerMixin",
+    "NoiseConfigMixin",
+    "ChunkNoiseSamplerMixin",
+    "NoiseGeneratorSettingsAccess",
+    "ChorusFlowerBlockMixin",
+    "ChorusPlantBlockMixin"
+  ],
+  "client": [],
+  "minVersion": "0.8"
+}

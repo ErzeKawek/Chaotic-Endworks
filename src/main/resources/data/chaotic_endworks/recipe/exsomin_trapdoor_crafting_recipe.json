@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "chaotic_endworks:exsomin_planks"
+    }
+  },
+  "result": {
+    "id": "chaotic_endworks:exsomin_trapdoor",
+    "count": 2
+  }
+}

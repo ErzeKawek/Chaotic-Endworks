@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "chaotic_endworks:exsomin_wood"
+    }
+  ],
+  "result": {
+    "id": "chaotic_endworks:exsomin_planks",
+    "count": 4
+  }
+}

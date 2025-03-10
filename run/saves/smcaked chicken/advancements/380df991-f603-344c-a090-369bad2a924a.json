@@ -1,0 +1,34 @@
+{
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2025-03-02 14:52:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-03-02 14:50:09 +0700"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-03-02 14:52:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-03-02 14:52:12 +0700",
+      "minecraft:old_growth_spruce_taiga": "2025-03-02 14:50:10 +0700"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-03-02 14:52:33 +0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

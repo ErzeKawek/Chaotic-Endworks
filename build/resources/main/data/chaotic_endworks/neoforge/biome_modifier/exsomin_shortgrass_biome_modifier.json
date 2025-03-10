@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "chaotic_endworks:exsomin_timbermidlands",
+    "chaotic_endworks:exsomin_timberlands"
+  ],
+  "features": "chaotic_endworks:exsomin_shortgrass",
+  "step": "vegetal_decoration"
+}

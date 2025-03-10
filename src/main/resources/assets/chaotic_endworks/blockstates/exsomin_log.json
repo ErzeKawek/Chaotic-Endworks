@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "chaotic_endworks:block/exsomin_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "chaotic_endworks:block/exsomin_log"
+    },
+    "axis=z": {
+      "model": "chaotic_endworks:block/exsomin_log",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "chaotic_endworks:block/exsomin_stalkflower"
+    },
+    "half=lower": {
+      "model": "chaotic_endworks:block/exsomin_stalkflower_bottom"
+    }
+  }
+}

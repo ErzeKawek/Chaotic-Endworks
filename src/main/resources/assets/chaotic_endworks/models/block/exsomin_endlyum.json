@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "minecraft:block/end_stone",
+    "up": "chaotic_endworks:block/exsomin_endlyum_top",
+    "north": "chaotic_endworks:block/exsomin_endlyum_sides",
+    "east": "chaotic_endworks:block/exsomin_endlyum_sides",
+    "south": "chaotic_endworks:block/exsomin_endlyum_sides",
+    "west": "chaotic_endworks:block/exsomin_endlyum_sides",
+    "particle": "minecraft:block/end_stone"
+  },
+  "render_type": "solid"
+}

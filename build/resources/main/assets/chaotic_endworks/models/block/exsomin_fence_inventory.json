@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "chaotic_endworks:block/exsomin_planks",
+    "particle": "chaotic_endworks:block/exsomin_planks"
+  },
+  "render_type": "solid"
+}

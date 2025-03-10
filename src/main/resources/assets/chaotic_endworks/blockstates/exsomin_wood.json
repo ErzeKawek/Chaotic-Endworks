@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "chaotic_endworks:block/exsomin_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "chaotic_endworks:block/exsomin_wood"
+    },
+    "axis=z": {
+      "model": "chaotic_endworks:block/exsomin_wood",
+      "x": 90
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/door_top_left_open",
+  "textures": {
+    "particle": "chaotic_endworks:block/exsomin_door_bottom",
+    "bottom": "chaotic_endworks:block/exsomin_door_bottom",
+    "top": "chaotic_endworks:block/exsomin_door_top"
+  },
+  "render_type": "cutout"
+}

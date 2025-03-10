@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "wooden_button",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "chaotic_endworks:exsomin_planks"
+    }
+  ],
+  "result": {
+    "id": "chaotic_endworks:exsomin_button",
+    "count": 1
+  }
+}

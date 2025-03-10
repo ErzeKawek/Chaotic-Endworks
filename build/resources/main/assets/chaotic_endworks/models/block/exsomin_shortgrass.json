@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "chaotic_endworks:block/exsomin_shortgrass",
+    "particle": "chaotic_endworks:block/exsomin_shortgrass"
+  },
+  "render_type": "cutout"
+}

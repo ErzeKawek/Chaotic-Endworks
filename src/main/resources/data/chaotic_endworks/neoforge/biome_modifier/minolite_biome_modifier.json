@@ -1,0 +1,9 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": [
+    "chaotic_endworks:exsomin_timberlands",
+    "chaotic_endworks:exsomin_timbermidlands"
+  ],
+  "features": "chaotic_endworks:minolite",
+  "step": "vegetal_decoration"
+}

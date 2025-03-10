@@ -1,0 +1,15 @@
+/place feature chaotic_endworks:exsomin_trees
+/time set night
+/setblock ~ ~ ~ minecraft:end_portal
+/setblock ~ ~ ~ minecraft:end_gateway
+/locate biome chaotic_endworks:exsomin_timberlands
+/tp @s 1536 76 25
+/locate biome chaotic_endworks:exsomin_timberlands
+/give @s minecraft:structure_block 1
+/setblock ~ ~ ~ minecraft:end_gateway
+/setblock ~ ~ ~ minecraft:end_portal
+/setblock ~ ~ ~ minecraft:end_gateway
+/setblock ~ ~ ~ minecraft:end_portal
+/setblock ~ ~ ~ minecraft:end_gateway
+/setblock ~ ~ ~ minecraft:end_portal
+/setblock ~ ~ ~ minecraft:end_gateway

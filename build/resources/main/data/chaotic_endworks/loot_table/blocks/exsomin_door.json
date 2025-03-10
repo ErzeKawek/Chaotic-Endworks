@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "chaotic_endworks:blocks/exsomin_door",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chaotic_endworks:exsomin_door",
+          "conditions": [
+            {
+              "block": "chaotic_endworks:exsomin_door",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

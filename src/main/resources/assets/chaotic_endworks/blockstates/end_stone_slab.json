@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "chaotic_endworks:block/end_stone_slab"
+    },
+    "type=top": {
+      "model": "chaotic_endworks:block/end_stone_slab_top"
+    },
+    "type=double": {
+      "model": "chaotic_endworks:block/end_stone_slab_full"
+    }
+  }
+}

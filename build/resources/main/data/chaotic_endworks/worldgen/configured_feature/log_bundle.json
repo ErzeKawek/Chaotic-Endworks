@@ -1,0 +1,8 @@
+{
+  "type": "chaotic_endworks:structure_feature",
+  "config": {
+    "structure": "chaotic_endworks:exsomin_logstack",
+    "random_rotation": true,
+    "ignored_blocks": "minecraft:air"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chaotic_endworks:block/exsomin_blintlight",
+    "particle": "chaotic_endworks:block/exsomin_blintlight"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "chaotic_endworks:block/exsomin_pressure_plate"
+    },
+    "powered=true": {
+      "model": "chaotic_endworks:block/exsomin_pressure_plate_down"
+    }
+  }
+}

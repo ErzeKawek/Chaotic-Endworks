@@ -1,0 +1,21 @@
+{
+  "_fv": 73,
+  "_type": "endbiome",
+  "definition": {
+    "biome": "ExsominTimberlands",
+    "generationType": "Highlands",
+    "weight": 2.0,
+    "midlands": "ExsominTimbermidlands",
+    "barrens": "Vanilla",
+    "midlandsWeight": 2.0,
+    "barrensWeight": 1.0,
+    "mixins": [
+      "BiomeSourceMixin",
+      "TheEndBiomeSourceMixin",
+      "ClimateSamplerMixin",
+      "NoiseConfigMixin",
+      "ChunkNoiseSamplerMixin",
+      "NoiseGeneratorSettingsAccess"
+    ]
+  }
+}

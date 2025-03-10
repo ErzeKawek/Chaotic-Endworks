@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "chaotic_endworks:blocks/exsomin_stalkflower",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "chaotic_endworks:exsomin_stalkflower",
+          "conditions": [
+            {
+              "block": "chaotic_endworks:exsomin_stalkflower",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

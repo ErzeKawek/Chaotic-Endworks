@@ -1,0 +1,13 @@
+{
+  "_fv": 73,
+  "_type": "endstone",
+  "definition": {
+    "block": {
+      "value": "CUSTOM:ExsominEndlyum"
+    },
+    "mixins": [
+      "ChorusFlowerBlockMixin",
+      "ChorusPlantBlockMixin"
+    ]
+  }
+}

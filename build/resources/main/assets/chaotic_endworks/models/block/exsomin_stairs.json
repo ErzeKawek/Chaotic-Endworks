@@ -1,0 +1,10 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "particle": "chaotic_endworks:block/exsomin_planks",
+    "bottom": "chaotic_endworks:block/exsomin_planks",
+    "top": "chaotic_endworks:block/exsomin_planks",
+    "side": "chaotic_endworks:block/exsomin_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "chaotic_endworks:block/exsomin_stem_sides",
+    "particle": "chaotic_endworks:block/exsomin_stem_sides"
+  },
+  "render_type": "solid"
+}

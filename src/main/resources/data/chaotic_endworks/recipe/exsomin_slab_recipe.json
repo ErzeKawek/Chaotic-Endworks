@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "chaotic_endworks:exsomin_planks"
+    }
+  },
+  "result": {
+    "id": "chaotic_endworks:exsomin_slab",
+    "count": 6
+  }
+}

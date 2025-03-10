@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "particle": "chaotic_endworks:block/exsomin_planks",
+    "texture": "chaotic_endworks:block/exsomin_planks"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:delta_feature",
+          "config": {
+            "contents": {
+              "Name": "minecraft:water"
+            },
+            "rim": {
+              "Name": "minecraft:end_stone"
+            },
+            "size": 5,
+            "rim_size": 1
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:spring_feature",
+          "config": {
+            "state": {
+              "Name": "minecraft:water"
+            },
+            "valid_blocks": [
+              "chaotic_endworks:exsomin_endlyum",
+              "minecraft:end_stone"
+            ]
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "chaotic_endworks:block/exsomin_stem_top",
+    "up": "chaotic_endworks:block/exsomin_stem_top",
+    "north": "chaotic_endworks:block/exsomin_stem_sides",
+    "east": "chaotic_endworks:block/exsomin_stem_sides",
+    "south": "chaotic_endworks:block/exsomin_stem_sides",
+    "west": "chaotic_endworks:block/exsomin_stem_sides",
+    "particle": "chaotic_endworks:block/exsomin_stem_top"
+  },
+  "render_type": "solid"
+}

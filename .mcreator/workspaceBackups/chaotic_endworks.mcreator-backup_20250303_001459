@@ -1,0 +1,684 @@
+{
+  "mod_elements": [
+    {
+      "name": "FloatingArchipelago",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floating_archipelago",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/worldgen/biome/floating_archipelago.json"
+        ]
+      }
+    },
+    {
+      "name": "FloatingArchipelagoEndBiome",
+      "type": "endbiome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "floating_archipelago_end_biome",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ExsominWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_wood.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominWoodBlock.java",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_wood.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_wood.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_log.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominLogBlock.java",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_log.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_log.json",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_log.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_planks.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominPlanksBlock.java",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_planks.json",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_planks.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_leaves.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_leaves.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_leaves.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_leaves.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominLeavesBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ExsominStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_stairs.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_stairs.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominStairsBlock.java",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_stairs.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_stairs_inner.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_stairs.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_stairs_outer.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_slab_full.json",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_slab.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_slab.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominSlabBlock.java",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_slab_top.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_slab.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_fence.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_fence.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_fence.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_fence.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_fence_inventory.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_fence_post.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominFenceBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ExsominFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_fence_gate.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_fence_gate.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_fence_gate.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_fence_gate_wall.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_fence_gate_wall_open.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_fence_gate_open.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominFenceGateBlock.java",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_pressure_plate.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominPressurePlateBlock.java",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_pressure_plate.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_pressure_plate_down.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_pressure_plate.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_button.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_button_pressed.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_button.json",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_button.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_button_inventory.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_button.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominButtonBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ExsominWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_planks_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_stick_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ChaoticEndworksCreativeTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chaotic_endworks_creative_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ExsominDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_door.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_door_top_left.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_door.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_door_bottom_right_open.json",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_door.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_door_bottom_left.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_door_bottom_left_open.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_door_top_left_open.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_door_top_right_open.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_door_top_right.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominDoorBlock.java",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_door_bottom_right.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominTrapdoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_trapdoor_open.json",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_trapdoor.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominTrapdoorBlock.java",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_trapdoor.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_trapdoor.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_trapdoor_top.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_trapdoor.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominEndlyum",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_endlyum",
+      "metadata": {
+        "files": [
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominEndlyumBlock.java",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_endlyum.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_endlyum.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_endlyum.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_endlyum.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominEndlyumEndstoneElement",
+      "type": "endstone",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_endlyum_endstone_element",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ExsominShortgrass",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_shortgrass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/neoforge/biome_modifier/exsomin_shortgrass_biome_modifier.json",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_shortgrass.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/placed_feature/exsomin_shortgrass.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominShortgrassBlock.java",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_shortgrass.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_shortgrass.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/configured_feature/exsomin_shortgrass.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_shortgrass.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominDoorCraftingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_door_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_door_crafting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominTrapdoorCraftingRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_trapdoor_crafting_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/recipe/exsomin_trapdoor_crafting_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EndstoneStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "endstone_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/erzekawek/chaoticendworks/block/EndstoneStairsBlock.java",
+          "src/main/resources/assets/chaotic_endworks/blockstates/endstone_stairs.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/endstone_stairs_inner.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/endstone_stairs.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/endstone_stairs_outer.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/endstone_stairs.json",
+          "src/main/resources/assets/chaotic_endworks/models/item/endstone_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "EndStoneSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "end_stone_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/erzekawek/chaoticendworks/block/EndStoneSlabBlock.java",
+          "src/main/resources/assets/chaotic_endworks/blockstates/end_stone_slab.json",
+          "src/main/resources/assets/chaotic_endworks/models/item/end_stone_slab.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/end_stone_slab.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/end_stone_slab.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/end_stone_slab_full.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/end_stone_slab_top.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominTimberlands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_timberlands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/worldgen/biome/exsomin_timberlands.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominBlintlight",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_blintlight",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_blintlight.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_blintlight.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_blintlight.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_blintlight.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominBlintlightBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ExsominTrees",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_trees",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/worldgen/placed_feature/exsomin_trees.json",
+          "src/main/resources/data/chaotic_endworks/neoforge/biome_modifier/exsomin_trees_biome_modifier.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/configured_feature/exsomin_trees.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominTimbermidlands",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_timbermidlands",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/worldgen/biome/exsomin_timbermidlands.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominTimberlandsEndBiomeME",
+      "type": "endbiome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_timberlands_end_biome_me",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ExsominSprings",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_springs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/worldgen/placed_feature/exsomin_springs.json",
+          "src/main/resources/data/chaotic_endworks/neoforge/biome_modifier/exsomin_springs_biome_modifier.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/configured_feature/exsomin_springs.json"
+        ]
+      }
+    },
+    {
+      "name": "ExsominStalkflower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exsomin_stalkflower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/neoforge/biome_modifier/exsomin_stalkflower_biome_modifier.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/configured_feature/exsomin_stalkflower.json",
+          "src/main/resources/data/chaotic_endworks/loot_table/blocks/exsomin_stalkflower.json",
+          "src/main/java/net/erzekawek/chaoticendworks/block/ExsominStalkflowerBlock.java",
+          "src/main/resources/assets/chaotic_endworks/models/item/exsomin_stalkflower.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_stalkflower.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/placed_feature/exsomin_stalkflower.json",
+          "src/main/resources/assets/chaotic_endworks/models/block/exsomin_stalkflower_bottom.json",
+          "src/main/resources/assets/chaotic_endworks/blockstates/exsomin_stalkflower.json"
+        ]
+      }
+    },
+    {
+      "name": "FallenLogs",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallen_logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/neoforge/biome_modifier/fallen_logs_biome_modifier.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/placed_feature/fallen_logs.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/configured_feature/fallen_logs.json"
+        ]
+      }
+    },
+    {
+      "name": "LogBundle",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_bundle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/chaotic_endworks/neoforge/biome_modifier/log_bundle_biome_modifier.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/configured_feature/log_bundle.json",
+          "src/main/resources/data/chaotic_endworks/worldgen/placed_feature/log_bundle.json"
+        ],
+        "has_nbt_structure": true
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:ExsominLeaves"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:ExsominTrapdoor",
+      "~CUSTOM:ExsominDoor",
+      "~CUSTOM:ExsominPlanks",
+      "~CUSTOM:ExsominLog",
+      "~CUSTOM:ExsominWood"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:EndStoneSlab",
+      "~CUSTOM:ExsominSlab"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:ExsominBlintlight"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:ExsominFence"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:EndstoneStairs",
+      "~CUSTOM:ExsominStairs"
+    ],
+    "BLOCKS:minecraft:logs": [
+      "CUSTOM:ExsominWood",
+      "CUSTOM:ExsominLog"
+    ],
+    "BIOMES:minecraft:has_structure/end_city": [
+      "~CUSTOM:ExsominTimbermidlands",
+      "~CUSTOM:ExsominTimberlands"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "block.chaotic_endworks.exsomin_planks": "Exsomin Planks",
+      "block.chaotic_endworks.exsomin_blintlight": "Exsomin Blintlight",
+      "block.chaotic_endworks.exsomin_shortgrass": "Exsomin Shortgrass",
+      "block.chaotic_endworks.exsomin_leaves": "Exsomin Leaves",
+      "block.chaotic_endworks.exsomin_button": "Exsomin Button",
+      "block.chaotic_endworks.exsomin_log": "Exsomin Log",
+      "block.chaotic_endworks.exsomin_trapdoor": "Exsomin Door",
+      "block.chaotic_endworks.exsomin_pressure_plate": "Exsomin Pressure Plate",
+      "biome.chaotic_endworks.exsomin_timbermidlands": "Exsomin Timbermidlands",
+      "block.chaotic_endworks.end_stone_slab": "End Stone Slab",
+      "block.chaotic_endworks.exsomin_wood": "Exsomin Wood",
+      "block.chaotic_endworks.exsomin_stalkflower": "Exsomin Stalkflower",
+      "biome.chaotic_endworks.floating_archipelago": "Floating Archipelago",
+      "block.chaotic_endworks.exsomin_fence_gate": "Exsomin Fence Gate",
+      "block.chaotic_endworks.exsomin_door": "Exsomin Door",
+      "block.chaotic_endworks.endstone_stairs": "End Stone Stairs",
+      "block.chaotic_endworks.exsomin_stairs": "Exsomin Stairs",
+      "item_group.chaotic_endworks.chaotic_endworks_creative_tab": "Chaotic Endworks",
+      "block.chaotic_endworks.exsomin_endlyum": "Exsomin Endlyum",
+      "block.chaotic_endworks.exsomin_fence": "Exsomin Fence",
+      "block.chaotic_endworks.exsomin_slab": "Exsomin Slab",
+      "biome.chaotic_endworks.exsomin_timberlands": "Exsomin Timberlands"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "chaotic_endworks",
+    "modName": "Chaotic Endworks",
+    "version": "1.0.0",
+    "author": "razee, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.1",
+    "modElementsPackage": "net.erzekawek.chaoticendworks"
+  },
+  "mcreatorVersion": 202400452410
+}
