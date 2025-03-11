@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/.eclipse": true,
+        "**/.gradle": true,
+        "**/.mcreator": true,
+        "**/build": true,
+        "**/elements": true,
+        "**/run": true
+    }
+}
